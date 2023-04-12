@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+
+body{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    color: cyan;
+    background-color: chartreuse;
+}
+
+#img{
+    width: 450px;
+    height: 450px;
+    padding: 40px;
+}
+
+.green{
+    background: linear-gradient(70deg , cyan ,purple);
+    border: none;
+    border-radius: 5px; 
+
+}
+
+.blue{
+    background: linear-gradient(70deg , blue ,pink);
+    border: none;
+    border-radius: 5px; 
+    width: 284px;
+    height: 29px;
+    margin:6px
+    
+}
+
+#mainContainer{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 8px;
+    width: 300px;
+    height: 150px;
+}
+
+#mainContainer > h1{
+    padding-left: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#inputSearch{
+    width: 168px;
+    height: 21px;
+    border-radius: 10px;
+}
+
+#inputSearch::placeholder{
+    color: rgb(0, 225, 255);
+}
+
+#inputSearch:focus{
+    outline: none;
+    color:rgb(0, 255, 170)
+}
+
+#btnSearchImg{
+    height: 26px;
+}
